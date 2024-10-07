@@ -1,1 +1,0 @@
-https://github.com/DPK-Nick/posmotri_v_okno.git
