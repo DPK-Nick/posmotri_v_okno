@@ -16,7 +16,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  display: flex;
+  display: flex; /*Отцентровка*/
   align-items: center;
 }
 
@@ -37,6 +37,17 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+/*Весь блок контента*/
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  min-inline-size: 1140px;
+  padding: 133px 30px;
+  gap: 30px;  
 }
 
 /*Спрячем кнопки*/
@@ -75,17 +86,6 @@ video {
   object-position: center;
   object-fit: cover;
   cursor: pointer;
-}
-
-/*Весь блок контента*/
-
-.content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  min-inline-size: 1140px;
-  padding: 133px 30px;
-  gap: 30px;  
 }
 
 /*Содержимое поиска*/
