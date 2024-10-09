@@ -172,9 +172,9 @@ ol {
   text-transform: uppercase;
   padding-bottom: 4px;
   text-overflow: ellipsis; /*Рекомендация ревьюера*/
-  white-space: nowrap;
-  overflow: hidden;
-  max-width: 200px;
+  white-space: nowrap; /*Рекомендация ревьюера*/
+  overflow: hidden; /*Рекомендация ревьюера*/
+  max-width: 200px; /*Рекомендация ревьюера*/
   color: #fff;
 }
 
