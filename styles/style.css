@@ -110,10 +110,6 @@ ol {
 
 /*Результат выбора видео*/
 
-video {
-  width: 100%;
-}
-
 .result {
   align-self: self-end;
   margin-bottom: 4px;
@@ -162,7 +158,10 @@ video {
   height: 300px;
   overflow: auto;
   padding-bottom: 4px;
-  gap: 30px;
+}
+
+.content__list-item:not(:last-of-type) { /*Рекомендация ревьюера*/
+  margin-bottom: 30px;
 }
 
 .content__video-card-title{
@@ -172,6 +171,10 @@ video {
   line-height: 100%;
   text-transform: uppercase;
   padding-bottom: 4px;
+  text-overflow: ellipsis; /*Рекомендация ревьюера*/
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 200px;
   color: #fff;
 }
 
@@ -180,6 +183,7 @@ video {
   font-weight: 400;
   font-size: 18px;
   line-height: 90%;
+  max-width: 200px;  /*Рекомендация ревьюера*/
   color: #fff;
 }
 
